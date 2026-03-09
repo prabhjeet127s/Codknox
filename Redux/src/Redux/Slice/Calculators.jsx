@@ -1,8 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
 const calculatorslice=createSlice({
-
     name:"calculator",
     initialState:{
         num1:0,
@@ -21,9 +19,6 @@ const calculatorslice=createSlice({
         }
     }
 })
-
 export const {setNum1,setnum2,setresult}=
 calculatorslice.actions;
-
-
 export default calculatorslice.reducer;

@@ -12,7 +12,6 @@ const Add = () => {
         const sum = num1 + num2;
         dispatch(setresult(sum))
     }
-    
     return (
         <div className='border-3 m-28 p-3 bg-blue-200' >
             <h3>Calculator</h3>
@@ -30,7 +29,6 @@ const Add = () => {
                 onChange={(e => dispatch(setnum2(Number(e.target.value))))}
                 placeholder='"Enter Number2'
             />
-
             <button
                 onClick={handleclick}
                 className='border-2 '

@@ -5,10 +5,7 @@ export const store = configureStore({
 
 
   reducer: {
-    
     calculator: calculatorReducer
-
-
     
   },
 
