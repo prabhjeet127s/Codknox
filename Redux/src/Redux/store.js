@@ -4,6 +4,8 @@ import calculatorReducer from './Slice/Calculators.jsx'
 
 export const store = configureStore({
   reducer: {
-    calculator:calculatorReducer
+    calculator:calculatorReducer,
+    
+
   },
 })

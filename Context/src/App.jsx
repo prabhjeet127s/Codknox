@@ -11,12 +11,6 @@ function App() {
 
       <Profile/>
       
-
-      
-      
-
-
-      
     </UserContext>
   )
 }
